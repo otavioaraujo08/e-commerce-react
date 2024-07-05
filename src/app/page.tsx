@@ -1,4 +1,5 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+import { Check } from "lucide-react";
 
 export default function Home() {
   return (
@@ -21,6 +22,23 @@ export default function Home() {
                 celular. CaseCobra permite que você proteja suas memórias, nao
                 apenas seu celular.
               </p>
+
+              <ul className="mt-8 space-y-2 text-left font-medium flex flex-col items-center sm:items-start">
+                <div className="space-y-2">
+                  <li className="flex gap-1.5 items-center text-left">
+                    <Check className="h-5 w-5 shrink-0 text-green-600" />
+                    Alta qualidade, material resistente
+                  </li>
+                  <li className="flex gap-1.5 items-center text-left">
+                    <Check className="h-5 w-5 shrink-0 text-green-600" />5 anos
+                    de garantia
+                  </li>
+                  <li className="flex gap-1.5 items-center text-left">
+                    <Check className="h-5 w-5 shrink-0 text-green-600" />
+                    Suporte aos modelos atuais do Iphone
+                  </li>
+                </div>
+              </ul>
             </div>
           </div>
         </MaxWidthWrapper>
