@@ -1,9 +1,9 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
-import { Check } from "lucide-react";
+import { Check, Star } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="bg-slate-50">
+    <div className="bg-slate-50 grainy-light">
       <section>
         <MaxWidthWrapper className="pb-24 pt-10 lg:grid lg:grid-cols-3 sm:pb-32 lg:gap-x-0 xl:gap-x-8 lg:pt-24 xl:pt-32 lg:pb-52">
           <div className="col-span-2 px-6 lg:px-0 lg:pt-4">
@@ -67,6 +67,16 @@ export default function Home() {
                     src="/users/user-5.jpg"
                     alt="user image"
                   />
+                </div>
+              </div>
+
+              <div className="flex flex-col justify-between items-center mt-3 sm:items-start">
+                <div className="flex gap-0.5">
+                  <Star className="h-4 w-4 text-green-600 fill-green-600" />
+                  <Star className="h-4 w-4 text-green-600 fill-green-600" />
+                  <Star className="h-4 w-4 text-green-600 fill-green-600" />
+                  <Star className="h-4 w-4 text-green-600 fill-green-600" />
+                  <Star className="h-4 w-4 text-green-600 fill-green-600" />
                 </div>
               </div>
             </div>
